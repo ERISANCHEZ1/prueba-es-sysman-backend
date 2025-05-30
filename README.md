@@ -59,18 +59,13 @@ http://localhost:8082/task-manager-backend/api/tasks
 }
 Respuesta:
 
-json
-Copiar
-Editar
 { "success": true }
+
 3. Actualizar tarea
 PUT /api/tasks
 
 Body JSON:
 
-json
-Copiar
-Editar
 {
   "task_id": 1,
   "title": "Título actualizado",
@@ -79,21 +74,16 @@ Editar
 }
 Respuesta:
 
-json
-Copiar
-Editar
 { "success": true }
+
 4. Eliminar tarea
 DELETE /api/tasks/{id}
 
 Ejemplo: DELETE /api/tasks/5
 
 Respuesta:
-
-json
-Copiar
-Editar
 { "success": true }
+
 ⚙️ Configuración de base de datos
 La conexión JDBC se realiza en TaskDAO.java. Asegúrate de modificar las credenciales:
 
